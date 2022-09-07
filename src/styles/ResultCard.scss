@@ -1,0 +1,12 @@
+$light-color:#ffffff;
+.card{
+    &-border-bottom{
+        border-bottom: thin solid $light-color;
+    }
+    &-no-radius{
+        border-radius: 0;
+    }
+    &-bg-light{
+        background-color: $light-color;
+    }
+}

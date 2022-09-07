@@ -1,0 +1,71 @@
+$p32:32px;
+$m16:32px;
+
+.wrapper{
+    &-background{
+        background-color: #ffffff;
+    }
+}
+
+.text{
+    font-size: 14px;
+    &-16{
+        font-size: 16px;
+    }
+    &-24{
+        font-size: 24px;
+    }
+    &-28{
+        font-size: 28px;
+    }
+    &-46{
+        font-size: 46px;
+    }
+    
+}
+
+.p-32{
+    padding: $p32;
+    &-l{
+        padding-left: $p32;
+    }
+    &-t{
+        padding-top: $p32;
+    }
+    &-r{
+        padding-right: $p32;
+    }
+    &-b{
+        padding-bottom: $p32;
+    }
+    &-y{
+        padding-top: $p32;
+        padding-bottom: $p32;
+    }&-x{
+        padding-left: $p32;
+        padding-right: $p32;
+    }
+}
+
+.m-16{
+    padding: $m16;
+    &-l{
+        margin-left: $m16;
+    }
+    &-t{
+        margin-top: $m16;
+    }
+    &-r{
+        margin-right: $m16;
+    }
+    &-b{
+        margin-bottom: $m16;
+    }
+    &-y{
+        margin-top: $m16;
+        margin-bottom: $m16;
+    }&-x{
+        margin-left: $m16;
+        margin-right: $m16;
+    }
+}

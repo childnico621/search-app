@@ -1,0 +1,93 @@
+
+// @import "../node_modules/bootstrap/scss/functions";
+
+$grid-columns: 12;
+$warning: #FFE600;
+
+$theme-colors: (
+  "primary": #3483FA,
+  "warning":#FFE600,
+  "danger": #ff4136,
+
+);
+$breadcrumb-divider: quote(">");
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+main {
+  -webkit-font-smoothing: antialiased;
+  background-color: #ebebeb;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg {
+  &-business{
+    &-warning{
+      background: $warning;
+    }
+    &-ligth-gray{
+      background-color: #eeeeee;
+    }
+  }
+  
+}
+
+.nav-logo {
+  background-image: url(/assets/Logo_ML@2x.png.png);
+  height: 34px;
+  top: 11px;
+  width: 134px;
+}
+
+.m-16 {
+  margin: 16px;
+  &-l {
+    margin-left: 16px;
+  }
+  &-t {
+    margin-top: 16px;
+  }
+  &-r {
+    margin-right: 16px;
+  }
+  &-b {
+    margin-bottom: 16px;
+  }
+
+}
+
+.p-32 {
+  padding: 32px;
+  &-l {
+    padding-left: 32px;
+  }
+  &-t {
+    padding-top: 32px;
+  }
+  &-r {
+    padding-right: 32px;
+  }
+  &-b {
+    padding-bottom: 32px;
+  }
+}

@@ -1,0 +1,13 @@
+.not-found-main{
+    margin: 10px;
+    padding: 10px;
+}
+
+.not-found-centered{
+    text-align: center;
+}
+.not-found-font > * {
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+ font-weight: bold;
+
+}
